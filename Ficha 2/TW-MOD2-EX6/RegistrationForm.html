@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table border="1">
+            <tr>
+                <th>
+                    <h1>Registration Form</h1>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <form action="https://www.webucator.com/materials/htm101/" method="post">
+                        User name:<br><input type="text" name="username" id="username"><br>
+                        User Password:<br><input type="password" name="password" id="password"><br>
+                        <input type="hidden" name="emailMessage" id="EmailMe" value="benson.terra@hotmail.com">
+                        
+                        Gender<input type="radio" name="Gender" value="male">Male<input type="radio" name="Gender" value="female">Female<br>
+                        Click to accepet our terms: <input type="checkbox" name="terms"><br>
+                        Where did you hear about us? 
+                        <select name="referral" id="referral">
+                            <option value="Opção 0">--Please choose--</option>
+                            <option value="won">word of mounth</option>
+                            <optgroup label="Search Engine">
+                                <option value="Google">Google</option>
+                                <option value="Yahoo">Yahoo</option>
+                                <option value="MSN">MSN</option>
+                            </optgroup>
+                        </select><br>
+                            Comments:<br><textarea name="comments" id="comments" cols="40" rows="5"></textarea><br>
+                            <input type="submit" name="submit" value="Register"><input type="reset" value="Reset">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
