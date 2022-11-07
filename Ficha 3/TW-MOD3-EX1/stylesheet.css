@@ -1,0 +1,27 @@
+#container {
+    background-color: rgb(170, 170, 170);
+    width: 960px;
+    margin: 0 auto;
+}
+#text-paragraphs {
+    text-align: justify;
+}
+.bg-black {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+.odd {
+    color: #ff0000
+}
+.even {
+    color:#0000ff;
+}
+#table {
+    background-color: #000000;
+    color: #ff0000
+}
+#table tr {
+    background-color: #5370C3;
+    color: #ffffff;
+}
