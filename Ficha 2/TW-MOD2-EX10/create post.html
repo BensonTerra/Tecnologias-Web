@@ -1,32 +1,36 @@
-<table border="5">
-    <tr>
-        <th>
-            <h1>Registration Form</h1>
-        </th>
-    </tr>
-    <tr>
-        <td>
-            <form action="https://www.webucator.com/materials/htm101/" method="post">
-                <fieldset>
-                    <legend>Personal Info</legend>
-                    Name <input type="text" pattern="[A-Z][a-z]+\s[A-Z][a-z]+" name="username" id="username" required><br>
-                    Member<input type="radio" name="membership" value="member" id="member">Non-Member<input type="radio" name="membership" value="Non-Member" id="Non-Member"><br>
-                    Email <input type="email" name="email" id="emailMe"><br>
-                </fieldset>
-                <fieldset>
-                    <legend>Reservation Info</legend>
-                    Facility
-                    <select name="sport" id="sport">
-                        <option value="Opção 0">--Please choose--</option>
-                        <option value="Badminton">Badminton</option>
-                        <option value="Squash">Squash</option>
-                        <option value="Racquetball">Racquetball</option>
-                    </select><br>
-                    Select a reservation date and time: <input type="datetime-local"><br>
-                    <input type="checkbox" name="terms">I agree to the club's reservation policy
-                </fieldset>
-                <input type="submit" name="submit" value="submit"><input type="reset" value="Reset">
-            </form>
-        </td>
-    </tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TW-F02-EX10-Post-Create</title>
+</head>
+
+<body>
+  <header>
+    <h1>Criar Post</h1>
+  </header>
+  <main>
+    <form action="create_post.html" method="post" id="form1">
+      <div>
+        <label for="title">Título</label>
+        <input type="text" name="title" id="title" required>
+      </div>
+      <div>
+        <label for="text">Texto</label>
+        <textarea name="text" id="text" rows="10" cols="30"></textarea>
+      </div>
+      <div>
+        <label for="video">Vídeo</label>
+        <input type="file" name="video" id="video">
+      </div>
+      <div>
+        <input type="submit">
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
