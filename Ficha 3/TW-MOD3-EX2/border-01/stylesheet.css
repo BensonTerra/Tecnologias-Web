@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    padding: 25px;
+    border: 25px solid rgb(0, 0, 128);
+    margin: 25px
+}
+div p {
+    border: 4px dotted red;
+}
