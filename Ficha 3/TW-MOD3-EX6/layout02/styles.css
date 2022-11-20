@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+}
+
+.col-1 {
+    background: lightgray;
+    display: flex;
+    flex: 1;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content>article {
+    min-height: 60vh;
+    display: flex;
+    flex: 3;
+}
+
+.content>aside {
+    background: lightgreen;
+    display: flex;
+    flex: 1;
+}
+
+header,
+footer {
+    background: lightblue;
+    height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+    padding: 1em;
+}
