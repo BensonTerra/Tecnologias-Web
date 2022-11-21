@@ -16,15 +16,19 @@ body {
 
 .outer-col-2 {
     background: rgb(172, 0, 0);
+    display: flex;
+    flex-direction: column;
     flex: 5;
 }
 
 .inner-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.inner-col {}
+.inner-col {
+    flex: 4;
+}
 
 .inner-row article {
     min-height: 60vh;
