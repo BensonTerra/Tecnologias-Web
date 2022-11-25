@@ -8,50 +8,30 @@
 </head>
 <body>
     <div>
-        <h1>Main Page</h1>
-        <a href="https://www.esmad.ipp.pt" target="_self">
-            <img src="https://via.placeholder.com/350x150" alt="Placeholder 350x150">
-        </a>
-        <H1>Lista não ordenada</H1>
-        <ul>
-            <li>primeiro item</li>
-            <li>segundo item</li>
-            <li>terceiro item</li>
-        </ul>
-
-        <H1>Lista ordenada</H1>
-        <ol>
-            <li>primeiro item</li>
-            <li>segundo item</li>
-            <li>terceiro item</li>
-        </ol>
-        <h1>Lista de definição</h1>
-        <dl>
-            <dt>primeiro item</dt>
-            <dd>texto do primeiro item</dd>
-            <dt>segundo item</dt>
-            <dd>texto do primeiro item</dd>
-            <dt>terceiro item</dt>
-        </dl>
-
-        <table border="5">
+        <table border="5" width=500 px>
             <tr>
-                <td>1</td><td>1</td><td>1</td><td>1</td>
+                <th colspan="2">Name and Photo</th><th>Subject</th><th>Grades</th><th>Class</th>
+            </tr>
+            <tr>
+                <td rowspan="2"><h4>Hillary</h4></td><td rowspan="2"><img src="i.pravatar.cc/75?img=1"></td><td>Advanced Web</td><td>75</td><td rowspan="4"><h4>#1</h4></td>
+            </tr>
+            <tr>
+                <td>Operating System</td><td>60</td>
             </tr>
 
             <tr>
-                <td>1</td><td>0</td><td>0</td><td>1</td>
+                <td rowspan="2"><h4>Hillary</h4></td><td rowspan="2"><img src="i.pravatar.cc/75?img=1"></td><td>Advanced Web</td><td>75</td>
+            </tr>
+            <tr>
+                <td>Operating System</td><td>60</td>
             </tr>
 
             <tr>
-                <td>1</td><td>0</td><td>0</td><td>1</td>
+                <td rowspan="2"><h4>Hillary</h4></td><td rowspan="2"><img src="i.pravatar.cc/75?img=1"></td><td>Advanced Web</td><td>75</td><td rowspan="4"><h4>#2</h4></td>
             </tr>
-
             <tr>
-                <td>1</td><td>1</td><td>1</td><td>1</td>
+                <td>Operating System</td><td>60</td>
             </tr>
-            
-            <th colspan="4">Lorem ipsum dolor sit amet</th>
         </table>
     </div>
 </body>
