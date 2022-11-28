@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+    width: 960px;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    height: 150px; /* adição */
+    line-height: 150px;
+    margin: 100px 25px;
+    text-align: center;
+    vertical-align: top;
+    width: 150px; /* adição */
+}
