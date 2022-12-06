@@ -30,8 +30,8 @@ body {
 }
 
 .content>article {
-    min-height: 60vh;
     display: flex;
+    min-height: 60vh;
     flex: 3;
 }
 
