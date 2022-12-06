@@ -46,7 +46,8 @@
 }
 
 .box-4 {
-  transition: width 0.5s, height 5s, transform 0.5s;
+  transition: width 0.5s, height 5s, transform 2s 4s;
+  
 }
 
 .box-4:hover {
