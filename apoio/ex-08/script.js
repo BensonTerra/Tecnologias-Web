@@ -3,6 +3,9 @@ guard-for-in: "off",
 no-console: ["error", { allow: ["log", "warn", "error"] }],
 no-restricted-syntax: "off" */
 
+const wordsArray = ['jogging', 'running', 'swimming'];
+console.log(`Array: ${wordsArray}`);
+
 function countWordsAndChars(words) {
   // total number of words
   const totalNumberWords = words.length;
@@ -22,6 +25,5 @@ function countWordsAndChars(words) {
   console.log(`Average number of chars per word: ${averageCharsInWords}`);
 }
 
-const wordsArray = ['jogging', 'running', 'swimming'];
-console.log(`Array: ${wordsArray}`);
+
 countWordsAndChars(wordsArray);
