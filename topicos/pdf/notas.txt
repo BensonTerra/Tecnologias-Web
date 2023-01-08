@@ -1,0 +1,3 @@
+string: pagina 61
+formulario: ex 20
+pag 65; criar uma string= string + str.charAt(i)(dentro do for com "i")
