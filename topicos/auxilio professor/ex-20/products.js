@@ -26,7 +26,11 @@ form.addEventListener('submit', function (event) {
   const description = document.querySelector('form input[name=description]').value;
   const quantity = document.querySelector('form input[name=quantity]').value;
 
-  line.innerHTML = `<tr><td>${description}</td><td><input value="${quantity}"></td><td><input type="button" value="Remove"><td></tr>`;
+  line.innerHTML = `<tr>
+                      <td>${description}</td>
+                      <td><input value="${quantity}"></td>
+                      <td><input type="button" value="Remove"><td>
+                    </tr>`;
 
   const table = document.getElementById('products');
   table.append(line);
